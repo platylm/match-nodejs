@@ -33,15 +33,24 @@ add tsc infile package.json
     },
     ...
 }
+```
 
+## install tsc
+```
 npm run tsc -- --init
+```
 
+## set tsconfig
 uncomment and set path file tsconfig.json
-
+```
     "outDir": "./dist",
     "rootDir": "./src",
 ```
 
+## install ts-jest
+```
+npm install -d ts-jest
+```
 ## config jest ให้ใช้กับ typscrip
 
 ```
