@@ -34,6 +34,8 @@ add tsc infile package.json
     ...
 }
 
+npm run tsc -- --init
+
 uncomment and set path file tsconfig.json
 
     "outDir": "./dist",
